@@ -12,7 +12,7 @@ function App() {
             return (
             <Mov
             title={element.Title}
-            // year={element.Year}
+            year={element.Year}
             img={element.Poster}
             
             />
