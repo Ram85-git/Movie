@@ -23,6 +23,7 @@ h1{
  padding: 10px; 
  color: white;
 }
+
 .main {
   display: flex;
   justify-content: space-between;
@@ -43,4 +44,89 @@ h1{
 .mov img{
   height: 220px;
   width: 100%;
+}
+
+@media screen and (min-width: 240px) and
+(max-width: 580px) { 
+  .main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+
+  }
+  .mov{
+    background-color: rgb(219, 212, 212);
+    color: black;
+    border: 2px solid gray;
+    padding: 3px;
+    font-weight: bold;
+    text-align: start;
+    height: 55vh;
+    width: 29%;
+    margin-top: 5px;
+ 
+  }
+  .mov img{
+    height: 220px;
+    width: 100%;
+  }
+  
+}
+
+@media screen and (min-width: 581px) and
+(max-width: 932px) { 
+  
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 14px;
+}
+.mov{
+  background-color: rgb(219, 212, 212);
+  color: black;
+  border: 2px solid gray;
+  padding: 3px;
+  font-weight: bold;
+  text-align: start;
+  width: 22%;
+  margin-top: 14px;
+
+}
+.mov img{
+  height: 220px;
+  width: 100%;
+}
+
+  
+}
+
+
+@media screen and (min-width: 932px) and
+(max-width: 1032px) { 
+  
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+.mov{
+  background-color: rgb(219, 212, 212);
+  color: black;
+  border: 2px solid gray;
+  padding: 3px;
+  font-weight: bold;
+  text-align: start;
+  width: 22%;
+  margin-top: 16px;
+
+}
+.mov img{
+  height: 220px;
+  width: 100%;
+}
+
+  
 }
