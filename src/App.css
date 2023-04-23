@@ -53,6 +53,7 @@ h1{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px;
+    /* margin: 1px; */
 
   }
   .mov{
@@ -64,7 +65,7 @@ h1{
     text-align: start;
     height: 55vh;
     width: 29%;
-    margin-top: 5px;
+    margin-top: 10px;
  
   }
   .mov img{
